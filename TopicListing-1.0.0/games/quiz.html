@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACE Satellite Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/quiz.css">
+</head>
+<body class="bg-light">
+    <div class="container mt-5">
+        <h1 class="text-center">PACE Satellite Quiz</h1>
+        <form id="quizForm">
+            <div class="mb-3">
+                <label>1. What does PACE stand for?</label>
+                <div>
+                    <input type="radio" name="q1" value="A"> A) Planetary Analysis of Climate Effects<br>
+                    <input type="radio" name="q1" value="B"> B) Plankton, Aerosol, Cloud, ocean Ecosystem<br>
+                    <input type="radio" name="q1" value="C"> C) Photovoltaic and Atmospheric Climate Evaluation<br>
+                    <input type="radio" name="q1" value="D"> D) Program for Advanced Climate Exploration<br>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>2. Which organization developed the PACE satellite?</label>
+                <div>
+                    <input type="radio" name="q2" value="A"> A) ESA (European Space Agency)<br>
+                    <input type="radio" name="q2" value="B"> B) JAXA (Japan Aerospace Exploration Agency)<br>
+                    <input type="radio" name="q2" value="C"> C) NASA (National Aeronautics and Space Administration)<br>
+                    <input type="radio" name="q2" value="D"> D) CNSA (China National Space Administration)<br>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>3. What is the primary purpose of the PACE satellite?</label>
+                <div>
+                    <input type="radio" name="q3" value="A"> A) To monitor weather patterns<br>
+                    <input type="radio" name="q3" value="B"> B) To study Earth's vegetation<br>
+                    <input type="radio" name="q3" value="C"> C) To observe ocean ecosystems and atmospheric particles<br>
+                    <input type="radio" name="q3" value="D"> D) To track wildlife migration<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>4. When was the PACE satellite launched?</label>
+                <div>
+                    <input type="radio" name="q4" value="A"> A) 2018<br>
+                    <input type="radio" name="q4" value="B"> B) 2021<br>
+                    <input type="radio" name="q4" value="C"> C) 2024<br>
+                    <input type="radio" name="q4" value="D"> D) 2022<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>5. What type of data does the PACE satellite primarily collect?</label>
+                <div>
+                    <input type="radio" name="q5" value="A"> A) Sound data<br>
+                    <input type="radio" name="q5" value="B"> B) Chemical composition data<br>
+                    <input type="radio" name="q5" value="C"> C) Optical data related to ocean color<br>
+                    <input type="radio" name="q5" value="D"> D) Seismic data<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>6. How does PACE contribute to climate research?</label>
+                <div>
+                    <input type="radio" name="q6" value="A"> A) By measuring air temperature<br>
+                    <input type="radio" name="q6" value="B"> B) By analyzing greenhouse gas emissions<br>
+                    <input type="radio" name="q6" value="C"> C) By providing insights into ocean health and carbon cycling<br>
+                    <input type="radio" name="q6" value="D"> D) By studying solar radiation<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>7. What unique feature does PACE use to observe the Earth?</label>
+                <div>
+                    <input type="radio" name="q7" value="A"> A) Radar technology<br>
+                    <input type="radio" name="q7" value="B"> B) Lidar technology<br>
+                    <input type="radio" name="q7" value="C"> C) Multispectral imaging<br>
+                    <input type="radio" name="q7" value="D"> D) Thermal imaging<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>8. Which environmental factors does PACE monitor?</label>
+                <div>
+                    <input type="radio" name="q8" value="A"> A) Only aerosols<br>
+                    <input type="radio" name="q8" value="B"> B) Only ocean temperatures<br>
+                    <input type="radio" name="q8" value="C"> C) Plankton blooms, aerosols, and cloud properties<br>
+                    <input type="radio" name="q8" value="D"> D) Only terrestrial ecosystems<br>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label>9. How does PACE help in understanding plankton populations?</label>
+                <div>
+                    <input type="radio" name="q9" value="A"> A) By measuring their temperature<br>
+                    <input type="radio" name="q9" value="B"> B) By assessing their color and distribution in water<br>
+                    <input type="radio" name="q9" value="C"> C) By tracking their movement<br>
+                    <input type="radio" name="q9" value="D"> D) By analyzing their chemical composition<br>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label>10. What is a key benefit of using satellite data from PACE?</label>
+                <div>
+                    <input type="radio" name="q10" value="A"> A) It provides real-time weather updates.<br>
+                    <input type="radio" name="q10" value="B"> B) It offers a global perspective on environmental changes.<br>
+                    <input type="radio" name="q10" value="C"> C) It can only be used for local studies.<br>
+                    <input type="radio" name="q10" value="D"> D) It is limited to land-based observations.<br>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit Quiz</button>
+        </form>
+
+        <div id="result" class="mt-4" style="display: none;">
+            <h3>Results</h3>
+            <ul id="answersList"></ul>
+        </div>
+    </div>
+
+    <script src="/js/quiz.js"></script>
+</body>
+</html>
